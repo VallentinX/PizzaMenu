@@ -1,0 +1,35 @@
+/** favorite colors: #f04, #f00, #ed0, #0ff, #02f, #0e0, #f60, #706*/
+:root {
+  --whiteColor: #fff;
+  --textWhite: #fff;
+  --blackColor: #000;
+  --textBlack: #000;
+
+  /* --mainColor: #fff; */
+  /* --secondColor: #000; */
+
+  --mainBackgroun: #f7f2e9;
+  --secondBackgroun: #edc84b;
+
+  --background-color: #111;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto Mono', sans-serif;
+  color: #252525;
+  font-weight: 400;
+  background-color: var(--mainBackgroun);
+  border-bottom: 1.6rem solid var(--secondBackgroun);
+  min-height: 100vh;
+  padding: 3.2rem;
+  padding-bottom: 6rem;
+}
