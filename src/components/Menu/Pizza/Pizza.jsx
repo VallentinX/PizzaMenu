@@ -7,7 +7,8 @@ const Pizza = function ({ pizza }) {
 
   return (
     <li className={soldOut ? 'pizza sold-out' : 'pizza'}>
-      <img src={`src/assets/pizzas/${photoName}`} alt={name} />
+      {/* <img src={`src/assets/pizzas/${photoName}`} alt={name} /> */}
+      <img src={`./src/assets/pizzas/${photoName}`} alt={name} />
 
       <div>
         <h3>{name}</h3>
