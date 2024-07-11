@@ -8,7 +8,6 @@ export default defineConfig({
   base: '/PizzaMenu/',
 
   build: {
-    outDir: 'dist',
     assetsDir: 'assets',
   },
 
